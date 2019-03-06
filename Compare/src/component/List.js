@@ -3,10 +3,6 @@ import "./List.css";
 import Item from "./Item";
 
 class List extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     handleClick = id => {
         return this.props.handleClick(id);
     }

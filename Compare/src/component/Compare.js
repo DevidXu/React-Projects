@@ -32,7 +32,7 @@ class Compare extends React.Component {
                         <div key={k} className="ColorBlock"><div className={"block bg-"+color} /></div>) }
                 </td>);
             forthRow.push(
-                <td key={i+1} style={{width: width}} className={products[i].condition=="Fresh"?"Fresh":"Frozen"}>
+                <td key={i+1} style={{width: width}} className={products[i].condition==="Fresh"?"Fresh":"Frozen"}>
                 {products[i].condition}
                 </td>);
         }
