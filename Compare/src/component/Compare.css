@@ -1,0 +1,57 @@
+.component-Compare {
+    position: relative;
+    top: 100px;
+    height: 320px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+}
+
+.component-Compare th {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 0 0 50px;
+    border: 2px solid lightgrey;
+}
+
+.component-Compare td {
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid lightgrey;
+}
+
+.component-Compare .ColorBlock {
+    display: inline-block;
+}
+
+.component-Compare .block {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.component-Compare .bg-red {
+    background-color: red;
+}
+
+.component-Compare .bg-green {
+    background-color: green;
+}
+
+.component-Compare .bg-blue {
+    background-color: blue;
+}
+
+.component-Compare .Fresh {
+    color: white;
+    background-color: rgba(76, 220, 200, 0.95);
+}
+
+.component-Compare .Frozen {
+    color: white;
+    background-color: rgba(250, 90, 60, 0.95);;
+}
